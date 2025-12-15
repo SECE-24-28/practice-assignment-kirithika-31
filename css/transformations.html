@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>All 2D Transforms</title>
+    <style>
+        body {
+            background: lightyellow;
+            text-align: center;
+            padding-top: 40px;
+            font-family: Arial;
+        }
+
+        .box {
+            width: 120px;
+            height: 120px;
+            background: coral;
+            margin: 20px auto;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            color: white;
+            font-weight: bold;
+            transition: 0.5s;
+        }
+
+        .translate:hover { transform: translate(40px, 20px); }
+        .rotate:hover    { transform: rotate(25deg); }
+        .scale:hover     { transform: scale(1.3); }
+        .skew:hover      { transform: skew(20deg); }
+        .all:hover       { transform: translate(20px) rotate(20deg) scale(1.2) skew(10deg); }
+    </style>
+</head>
+
+<body>
+
+    <div class="box translate">Translate</div>
+    <div class="box rotate">Rotate</div>
+    <div class="box scale">Scale</div>
+    <div class="box skew">Skew</div>
+    <div class="box all">All</div>
+
+</body>
+</html>

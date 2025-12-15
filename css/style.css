@@ -1,0 +1,8 @@
+
+div {
+    border-width:1px;
+    border: 2px solid red;
+    background-color: aquamarine;
+    padding:2rem
+    display:inline;
+}
